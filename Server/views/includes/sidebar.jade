@@ -3,14 +3,14 @@ section.sidebar
     h1.logo Vorlon.js
     .session-info
       p
-        | Session ID: 
+        | Session ID:
         span(data-hook='session-id')
       p
-        | Client ID: 
+        | Client ID:
         span(data-hook='client-id')
   #clientsListPane.client-pane
     a#identify.btn.btn-primary(onclick='vorlonDashboard.identify()',tabindex='0',role="button") Identify a client
-    h2 Client List
+    h2 Client List:
     #clientsListPaneContent.client-list
     a.btn.btn-secondary.btn-small.btn-reset(onclick='VORLON.DashboardManager.ResetDashboard()', tabindex='0',role="button") Reset Dashboard
     if authenticated

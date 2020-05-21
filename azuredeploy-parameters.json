@@ -1,11 +1,11 @@
 {
     "siteName": {
-        "value": "SiteName"
+        "value": "trace-my-connection"
     },
     "hostingPlanName": {
-        "value": "AppServicePlanName"        
+        "value": "trace-my-connection"
     },
     "siteLocation": {
-        "value": "West US"      
+        "value": "West US"
     }
 }
